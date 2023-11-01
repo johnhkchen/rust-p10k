@@ -1,4 +1,4 @@
-FROM rustlang/rust:nightly
+FROM mcr.microsoft.com/devcontainers/rust:latest
 WORKDIR /home/
 
 COPY . .
